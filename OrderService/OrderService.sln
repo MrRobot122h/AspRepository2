@@ -5,11 +5,11 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService", "OrderService.csproj", "{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectService", "..\ProjectService\ProjectService.csproj", "{4D61AA6F-FC26-4743-A18D-CE6D88DB8019}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "..\ProjectService\ProductService.csproj", "{4D61AA6F-FC26-4743-A18D-CE6D88DB8019}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsersService", "..\UsersService\UsersService.csproj", "{75835A06-ED9C-4741-9CE0-641C903019A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedModels", "..\SharedModels\SharedModels.csproj", "{65BC2EA3-BA4A-4C3A-93E8-444FF54EC993}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedModels", "..\SharedModels\SharedModels.csproj", "{65BC2EA3-BA4A-4C3A-93E8-444FF54EC993}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
