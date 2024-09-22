@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\doski\\Desktop\\OrderService\\OrderService.csproj",
+      "projectUniqueName": "D:\\IT\\Git\\AspRepository2\\OrderService\\OrderService.csproj",
       "projectName": "OrderService",
-      "projectPath": "C:\\Users\\doski\\Desktop\\OrderService\\OrderService.csproj",
+      "projectPath": "D:\\IT\\Git\\AspRepository2\\OrderService\\OrderService.csproj",
       "packagesPath": "C:\\Users\\doski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\doski\\Desktop\\OrderService\\obj\\",
+      "outputPath": "D:\\IT\\Git\\AspRepository2\\OrderService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\doski\\AppData\\Roaming\\NuGet\\NuGet.Config",

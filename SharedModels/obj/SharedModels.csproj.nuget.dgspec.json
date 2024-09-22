@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IT\\Git\\AspRepository2\\OrderService\\OrderService.csproj": {}
+    "D:\\IT\\Git\\AspRepository2\\SharedModels\\SharedModels.csproj": {}
   },
   "projects": {
-    "D:\\IT\\Git\\AspRepository2\\OrderService\\OrderService.csproj": {
+    "D:\\IT\\Git\\AspRepository2\\SharedModels\\SharedModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IT\\Git\\AspRepository2\\OrderService\\OrderService.csproj",
-        "projectName": "OrderService",
-        "projectPath": "D:\\IT\\Git\\AspRepository2\\OrderService\\OrderService.csproj",
+        "projectUniqueName": "D:\\IT\\Git\\AspRepository2\\SharedModels\\SharedModels.csproj",
+        "projectName": "SharedModels",
+        "projectPath": "D:\\IT\\Git\\AspRepository2\\SharedModels\\SharedModels.csproj",
         "packagesPath": "C:\\Users\\doski\\.nuget\\packages\\",
-        "outputPath": "D:\\IT\\Git\\AspRepository2\\OrderService\\obj\\",
+        "outputPath": "D:\\IT\\Git\\AspRepository2\\SharedModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\doski\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,12 +44,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -62,9 +56,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

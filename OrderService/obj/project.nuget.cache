@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9YY2S99X9XQ=",
+  "dgSpecHash": "G7RnFOPpbnA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\doski\\Desktop\\OrderService\\OrderService.csproj",
+  "projectFilePath": "D:\\IT\\Git\\AspRepository2\\OrderService\\OrderService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\doski\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\doski\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

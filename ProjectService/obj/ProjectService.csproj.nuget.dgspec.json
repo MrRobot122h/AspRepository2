@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\doski\\Desktop\\ProjectService\\ProjectService.csproj": {}
+    "D:\\IT\\Git\\AspRepository2\\ProjectService\\ProjectService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\doski\\Desktop\\ProjectService\\ProjectService.csproj": {
+    "D:\\IT\\Git\\AspRepository2\\ProjectService\\ProjectService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\doski\\Desktop\\ProjectService\\ProjectService.csproj",
+        "projectUniqueName": "D:\\IT\\Git\\AspRepository2\\ProjectService\\ProjectService.csproj",
         "projectName": "ProjectService",
-        "projectPath": "C:\\Users\\doski\\Desktop\\ProjectService\\ProjectService.csproj",
+        "projectPath": "D:\\IT\\Git\\AspRepository2\\ProjectService\\ProjectService.csproj",
         "packagesPath": "C:\\Users\\doski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\doski\\Desktop\\ProjectService\\obj\\",
+        "outputPath": "D:\\IT\\Git\\AspRepository2\\ProjectService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\doski\\AppData\\Roaming\\NuGet\\NuGet.Config",

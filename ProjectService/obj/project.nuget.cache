@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5cNsOdKfnXo=",
+  "dgSpecHash": "u5VHq1nypgA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\doski\\Desktop\\ProjectService\\ProjectService.csproj",
+  "projectFilePath": "D:\\IT\\Git\\AspRepository2\\ProjectService\\ProjectService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\doski\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\doski\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
