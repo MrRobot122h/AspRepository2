@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using ProductService.Interfaces;
 using SharedModels;
 
 namespace ProductService.Controllers
@@ -8,25 +8,87 @@ namespace ProductService.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private static readonly List<Product> Products = new List<Product>
-        {
-            new Product { Id = 1, Name = "Laptop", Price = 1500 },
-            new Product { Id = 2, Name = "Phone", Price = 800 }
-        };
+        private readonly IProductService _productService;
 
-        [HttpGet("{id}")]
-        public ActionResult<Product> GetProduct(int id)
+        public ProductController(IProductService productService)
         {
-            var product = Products.FirstOrDefault(p => p.Id == id);
-            if (product == null)
-                return NotFound();
-            return Ok(product);
+            _productService = productService;
         }
 
-        [HttpGet]
+        [HttpGet("Get Product")]
+        public ActionResult<Product> GetProduct(int id)
+        {
+            try
+            {
+                var product = _productService.GetProduct(id);
+                if (product == null)
+                    return NotFound();
+
+                return Ok(product);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error retrieving product: {ex.Message}");
+            }
+        }
+
+        [HttpPost("Add Product")]
+        public ActionResult<Product> SetProduct(Product newProduct)
+        {
+            try
+            {
+                if (newProduct == null)
+                    return BadRequest("newProduct cannot be null");
+
+                _productService.Add(newProduct);
+                return Ok(newProduct);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error adding product: {ex.Message}");
+            }
+        }
+
+        [HttpGet("Get All Products")]
         public ActionResult<IEnumerable<Product>> GetProducts()
         {
-            return Ok(Products);
+            try
+            {
+                var products = _productService.GetProducts();
+                return Ok(products);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error retrieving product: {ex.Message}");
+            }
+        }
+
+        [HttpPut("Update Product")]
+        public IActionResult UpdateUser(int id, Product newProduct)
+        {
+            try
+            {
+                _productService.Update(id, newProduct);
+                return Ok("Product updated successfully");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error updating product: {ex.Message}");
+            }
+        }
+
+        [HttpDelete("Delete Product")]
+        public IActionResult DeleteProduct(int id)
+        {
+            try
+            {
+                _productService.Delete(id);
+                return Ok("Product deleted successfully");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error deleting product: {ex.Message}");
+            }
         }
     }
 }
