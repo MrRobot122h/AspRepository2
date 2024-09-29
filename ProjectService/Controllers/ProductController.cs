@@ -15,7 +15,7 @@ namespace ProductService.Controllers
             _productService = productService;
         }
 
-        [HttpGet("Get Product")]
+        [HttpGet("{id}")]
         public ActionResult<Product> GetProduct(int id)
         {
             try

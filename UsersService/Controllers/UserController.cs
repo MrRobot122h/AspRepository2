@@ -17,7 +17,7 @@ namespace UsersService.Controllers
             _userService = userService;
         }
 
-        [HttpGet("Get User")]
+        [HttpGet("{id}")]
         public ActionResult<User> GetUser(int id)
         {
             try

@@ -3,6 +3,16 @@
   "WorkspaceRootPath": "D:\\IT\\Git\\AspRepository2\\OrderService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D61AA6F-FC26-4743-A18D-CE6D88DB8019}|..\\ProjectService\\ProductService.csproj|d:\\it\\git\\asprepository2\\projectservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75835A06-ED9C-4741-9CE0-641C903019A6}|..\\UsersService\\UsersService.csproj|d:\\it\\git\\asprepository2\\usersservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}|OrderService.csproj|d:\\it\\git\\asprepository2\\orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}|OrderService.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D61AA6F-FC26-4743-A18D-CE6D88DB8019}|..\\ProjectService\\ProductService.csproj|d:\\it\\git\\asprepository2\\projectservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}|OrderService.csproj|d:\\it\\git\\asprepository2\\orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}|OrderService.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}|OrderService.csproj|d:\\it\\git\\asprepository2\\orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}|OrderService.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}|OrderService.csproj|d:\\it\\git\\asprepository2\\orderservice\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,9 +35,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}|OrderService.csproj|d:\\it\\git\\asprepository2\\orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}|OrderService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75835A06-ED9C-4741-9CE0-641C903019A6}|..\\UsersService\\UsersService.csproj|d:\\it\\git\\asprepository2\\usersservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{869BEA73-A2E8-4AF7-A34C-56F83CBB8AE6}|OrderService.csproj|d:\\it\\git\\asprepository2\\orderservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -61,11 +64,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\ProjectService\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "..\\ProjectService\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\IT\\Git\\AspRepository2\\ProjectService\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "..\\ProjectService\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T07:27:34.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\ProjectService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "..\\ProjectService\\Properties\\launchSettings.json",
@@ -73,12 +89,11 @@
               "RelativeToolTip": "..\\ProjectService\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T18:17:11.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T18:17:11.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\OrderService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -86,38 +101,37 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T18:17:05.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T18:17:05.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\ProjectService\\Program.cs",
               "RelativeDocumentMoniker": "..\\ProjectService\\Program.cs",
               "ToolTip": "D:\\IT\\Git\\AspRepository2\\ProjectService\\Program.cs",
               "RelativeToolTip": "..\\ProjectService\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T18:10:27.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\UsersService\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "..\\UsersService\\Controllers\\UserController.cs",
               "ToolTip": "D:\\IT\\Git\\AspRepository2\\UsersService\\Controllers\\UserController.cs",
               "RelativeToolTip": "..\\UsersService\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAASwCYAAAAIAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAvwBMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T18:02:40.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UsersRepository.cs",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\UsersService\\Repositories\\UsersRepository.cs",
               "RelativeDocumentMoniker": "..\\UsersService\\Repositories\\UsersRepository.cs",
@@ -125,12 +139,11 @@
               "RelativeToolTip": "..\\UsersService\\Repositories\\UsersRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAASwAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:02:40.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T18:02:40.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\OrderService\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -138,12 +151,11 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T17:53:08.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:53:08.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\OrderService\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -151,25 +163,24 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T17:53:03.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:53:03.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\OrderService\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
               "ToolTip": "D:\\IT\\Git\\AspRepository2\\OrderService\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowHAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T17:37:04.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\OrderService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -177,12 +188,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:35:31.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:35:31.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\UsersService\\Program.cs",
               "RelativeDocumentMoniker": "..\\UsersService\\Program.cs",
@@ -190,12 +200,11 @@
               "RelativeToolTip": "..\\UsersService\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:35:23.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:35:23.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IOrdersService.cs",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\OrderService\\Interfaces\\IOrdersService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IOrdersService.cs",
@@ -203,12 +212,11 @@
               "RelativeToolTip": "Interfaces\\IOrdersService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:21:50.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:21:50.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\OrderService\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IOrderRepository.cs",
@@ -216,12 +224,11 @@
               "RelativeToolTip": "Interfaces\\IOrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:21:27.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:21:27.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\OrderService\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
@@ -229,12 +236,11 @@
               "RelativeToolTip": "Repositories\\OrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAMwA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:21:02.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:21:02.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "OrdersService.cs",
               "DocumentMoniker": "D:\\IT\\Git\\AspRepository2\\OrderService\\Services\\OrdersService.cs",
               "RelativeDocumentMoniker": "Services\\OrdersService.cs",
@@ -242,8 +248,7 @@
               "RelativeToolTip": "Services\\OrdersService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:20:36.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:20:36.831Z"
             }
           ]
         }

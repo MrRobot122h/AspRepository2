@@ -98,7 +98,6 @@ namespace OrderService.Controllers
         }
 
 
-
         [HttpGet]
         private async Task<User?> GetUserById(int userId)
         {
@@ -112,6 +111,7 @@ namespace OrderService.Controllers
 
         }
 
+
         [HttpGet]
         public async Task<Product?> GetProductById(int productId)
         {
@@ -124,7 +124,7 @@ namespace OrderService.Controllers
             return JsonSerializer.Deserialize<Product>(json);
         }
 
-       
+
 
     }
 }
